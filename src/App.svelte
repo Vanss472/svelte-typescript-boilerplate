@@ -1,4 +1,5 @@
 <script lang="ts">
+	import PhotoAlbum from "./components/PhotoAlbum/PhotoAlbum.svelte";
 	import Button from "./components/UI/Button/Button.svelte";
 
 	const handleClick = () => {
@@ -12,6 +13,7 @@
 		type: 'button',
 		onClick: handleClick,
 	}}>Default button</Button>
+	<PhotoAlbum />
 </main>
 
 <style>

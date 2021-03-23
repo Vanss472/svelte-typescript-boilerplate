@@ -1,6 +1,9 @@
 {
   "extends": "@tsconfig/svelte/tsconfig.json",
-
+  "compilerOptions": {
+    "target": "esnext",
+    "strict": true /* Enable all strict type-checking options. */
+  },
   "include": ["src/**/*"],
   "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
 }
